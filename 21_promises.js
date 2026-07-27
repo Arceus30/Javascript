@@ -19,6 +19,7 @@ promiseFour
         console.log(username);
     })
     .catch(function (error) {
+        // it catches errors thrown by all the promises or .then() above it
         console.log(error);
     })
     .finally(() => console.log("The promise is either resolved or rejected"));
