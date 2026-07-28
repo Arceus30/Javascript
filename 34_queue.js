@@ -61,3 +61,6 @@ class Queue2 {
         console.log(this.#collection);
     }
 }
+
+// used in bst levelorderBFS() function
+module.exports = { Queue2 };
